@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore Udaipur</title>
+
+  <style>
+    body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+/* Header Background */
+header {
+  height: 100vh;
+  background-image: url(img.5.5.png); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* Overlay for readability */
+header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  position: relative;
+  z-index: 1;
+}
+
+.navbar .logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+  color: #ffd700;+
+}
+
+.navbar .btn {
+  background: #ffd700;
+  color: #333;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Hero Text */
+.hero-text {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  top: 30%;
+}
+
+.hero-text h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+/* Buttons */
+.hero-buttons {
+  margin-top: 20px;
+}
+
+.explore-btn {
+  background: #ffd700;
+  color: #333;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.explore-btn:hover {
+  background: #fff;
+  color: #333;
+}
+
+.video-btn {
+  background: transparent;
+  border: 2px solid #ffd700;
+  color: #ffd700;
+}
+
+.video-btn:hover {
+  background: #ffd700;
+  color: #333;
+}
+
+/* Footer */
+footer {
+  background:goldenrod;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
+h1 {
+  font-family: 'Cinzel', serif;   /* royal elegant font */
+  font-size: 36px;
+  color: #8b5e3c;                 /* heritage brown shade */
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 2px;            /* thoda spacing for classy look */
+}
+
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Explore Udaipur</div>
+      <ul>
+         <li><a href="home.html">Home</a></li>
+        <li><a href="places.html">Places</a></li>
+        <li><a href="food.html">Food</a></li>
+        <li><a href="Culture.html">Culture</a></li>
+        <li><a href="Hidden Gems.html">Hidden Gems</a></li>
+        <li><a href="#Gallery">Gallery</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        
+      </ul>
+    </nav>
+    <div class="hero-text">
+      <h1 style="color:burlywood">EXPLORE UDAIPUR</h1>
+      <p>Explore the City of Lakes</p>
+      <p>Where royal heritage meets natural beauty.<br>
+         Discover the charm, culture and calmness of Udaipur.</p>
+      <div class="hero-buttons">
+        <button class="explore-btn">Explore Places</button>
+        <button class="explore-btn video-btn">Watch Video</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Footer -->
+  <footer>
+    <p>Made by Khushi 💖</p>
+  </footer>
+</body>
+</html>
